@@ -1,0 +1,7 @@
+#!/bin/bash
+
+INSTALL_DIR="/Library/OpenBlockExternalResources"
+
+if [ -x "$INSTALL_DIR/setup.sh" ]; then
+    "$INSTALL_DIR/setup.sh"
+fi
