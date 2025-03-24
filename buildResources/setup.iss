@@ -2,11 +2,11 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 [Setup]
-AppName=OpenBlock External Resources Installer
+AppName=StemBlock External Resources Installer
 AppVersion={#Version}
-DefaultDirName=C:\OpenBlockExternalResources
+DefaultDirName=C:\StemBlockExternalResources
 OutputDir=../dist
-OutputBaseFilename=OpenBlock-External-Resources-v{#Version}
+OutputBaseFilename=StemBlock-External-Resources-v{#Version}
 PrivilegesRequired=admin
 
 [Files]

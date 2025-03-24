@@ -21,7 +21,7 @@ const eitghtTimesEightMatirxDisplay = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['display'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://stemcity.in'
 });
 
 module.exports = eitghtTimesEightMatirxDisplay;

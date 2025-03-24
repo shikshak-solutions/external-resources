@@ -21,7 +21,7 @@ const passiveBuzzer = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['actuator'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://stemcity.in'
 });
 
 module.exports = passiveBuzzer;

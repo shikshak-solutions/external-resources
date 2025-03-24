@@ -14,7 +14,7 @@ INSTALL_DIR="$(cd "$(dirname "$0")" && pwd -P)"
 if [[ "$(uname)" == "Darwin" ]]; then
 
     # Path to the Launch Agent plist file
-    LAUNCH_AGENT_PLIST=/Library/LaunchAgents/openblock.cc.openblockExternalResource.setenv.plist
+    LAUNCH_AGENT_PLIST=/Library/LaunchAgents/stemblock.in.stemblockExternalResource.setenv.plist
 
     # Create Launch Agent plist file
     mkdir -p $(dirname "$LAUNCH_AGENT_PLIST")
@@ -24,12 +24,12 @@ if [[ "$(uname)" == "Darwin" ]]; then
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>openblock.cc.openblockExternalResource.setenv</string>
+    <string>stemblock.in.stemblockExternalResource.setenv</string>
     <key>ProgramArguments</key>
     <array>
         <string>launchctl</string>
         <string>setenv</string>
-        <string>OPENBLOCK_EXTERNAL_RESOURCES</string>
+        <string>STEMBLOCK_EXTERNAL_RESOURCES</string>
         <string>$INSTALL_DIR</string>
     </array>
     <key>RunAtLoad</key>
@@ -66,8 +66,8 @@ else
         fi
     }
 
-    PROFILE_FILE="/etc/profile.d/openblock-external-resource-setenv.sh"
-    ENVIRONMENT_VARIABLE="export OPENBLOCK_EXTERNAL_RESOURCES=\"$INSTALL_DIR\""
+    PROFILE_FILE="/etc/profile.d/stemblock-external-resource-setenv.sh"
+    ENVIRONMENT_VARIABLE="export STEMBLOCK_EXTERNAL_RESOURCES=\"$INSTALL_DIR\""
 
     if [ -f "$PROFILE_FILE" ]; then
         sudo rm "$PROFILE_FILE"

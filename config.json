@@ -2,11 +2,7 @@
     "updater": {
         "default": {
             "provider": "github",
-            "repo": "openblockcc/external-resources-v3"
-        },
-        "cn": {
-            "provider": "gitee",
-            "repo": "openblockcc/external-resources-v3"
+            "repo": "shikshak-solutions/external-resources"
         }
     },
     "version": "0.4.1"

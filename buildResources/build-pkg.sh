@@ -27,9 +27,9 @@ echo $EXCLUDES
 eval rsync -av $EXCLUDES "$SOURCE_DIR/" "$BUILD_DIR/"
 
 pkgbuild --root ./dist/pkg/ \
-         --identifier openblock.cc.openblock-external-resource \
+         --identifier stemblock.in.stemblock-external-resource \
          --version $VERSION \
-         --install-location /Library/OpenBlockExternalResources \
+         --install-location /Library/StemBlockExternalResources \
          --ownership recommended \
          --scripts buildResources/mac-scripts \
-         ./dist/OpenBlock-External-Resources-v$VERSION.pkg
+         ./dist/StemBlock-External-Resources-v$VERSION.pkg
