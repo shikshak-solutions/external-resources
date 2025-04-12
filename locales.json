@@ -115,9 +115,6 @@
         "Software Serial",
             "softwareSerial.description"
     :
-        "Allow serial communication on other digital pins of the Arduino.",
-            "apds9960.description"
-    :
         "Proximity, Light, RGB, and Gesture Sensor which uses an I2C interface.",
             "dht.name"
     :

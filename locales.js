@@ -1,7 +1,5 @@
 module.exports = {
     "en": {
-        "chineseTTS.name": "Chinese TTS",
-        "chineseTTS.description": "Text to speech module based on SYN6288, support Chinese and English letters and numbers.",
         "l298n.description": "Common high power dual motor drive module.",
         "passiveBuzzer.name": "Passive Buzzer",
         "passiveBuzzer.description": "Unlike the active buzzer, the passive buzzer can be used to make different tones of sound and play some ringtones.",
@@ -40,7 +38,6 @@ module.exports = {
         "sdCard.description": "Save or read your data in an SD card.",
         "softwareSerial.name": "Software Serial",
         "softwareSerial.description": "Allow serial communication on other digital pins of the Arduino.",
-        "apds9960.description": "Proximity, Light, RGB, and Gesture Sensor which uses an I2C interface.",
         "dht.name": "DHT Sensor",
         "dht.description": "DHT Temperature and humidity sensor module.",
         "ds18b20.name": "DS18B20 Sensor",
